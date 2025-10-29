@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage that appears in the browser tab -->
+    <title>Pearls Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS for styling and layout -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link to custom CSS file for additional styles -->
+    <link rel="stylesheet" href="landingpage.css"> 
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <img class="navbar-brand" src="images/WhatsApp Image 2025-05-21 at 18.38.38_33e5e344.jpg" alt="logo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <!-- Company Mega Dropdown -->
+            <li class="nav-item mega-dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="companyDropdown">Company</a>
+                <div class="dropdown-menu mega-menu">
+                    <div class="container">
+                        <div class="row justify-content-center"> <!-- Centered row -->
+                            <!-- Column 1 -->
+                            <div class="col-md-3">
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item mb-3" href="#"><strong>Our Story</strong></a>
+                                <a class="dropdown-item mb-3" href="#"><strong>People</strong></a>
+                                <a class="dropdown-item mb-3" href="#"><strong>Awards</strong></a>
+                            </div>
+                            
+                            <!-- Column 2 -->
+                            <div class="col-md-3 mx-md-5"> <!-- Added horizontal spacing -->
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item mb-3" href="#"><strong>Commitment to Women</strong></a>
+                                <a class="dropdown-item mb-3" href="#"><strong>Empower Foundation</strong></a>
+                                <a class="dropdown-item mb-3" href="#"><strong>10Pearls University</strong></a>
+                            </div>
+                            
+                            <!-- Column 3 -->
+                            <div class="col-md-3">
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item mb-3" href="#"><strong>10Pearls Labs</strong></a>
+                                <a class="dropdown-item mb-3" href="#"><strong>Partnerships</strong></a>
+                                <a class="dropdown-item mb-3" href="#"><strong>Locations</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            
+            <!-- Other Nav Items -->
+            <li class="nav-item mega-dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown">Services</a>
+    <div class="dropdown-menu mega-menu">
+        <div class="container">
+            <div class="row">
+                <!-- Column 1 -->
+                <div class="col-md-3">
+                    <h5>Product Innovation</h5>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Design Thinking</a>
+                    <a class="dropdown-item" href="#">Product Strategy</a>
+                    <a class="dropdown-item" href="#">MVP Development</a>
+                    <a class="dropdown-item" href="#">Agile Development</a>
+                </div>
+                
+                <!-- Column 2 -->
+                <div class="col-md-3">
+                    <h5>Consulting & Assessment</h5>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Generative AI</a>
+                    <a class="dropdown-item" href="#">Machine Learning</a>
+                    <a class="dropdown-item" href="#">AI Frameworks</a>
+                </div>
+                
+                <!-- Column 3 -->
+                <div class="col-md-3">
+                    <h5>Software Development</h5>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Nearshore Development</a>
+                    <a class="dropdown-item" href="#">Offshore Development</a>
+                    <a class="dropdown-item" href="#">Web App Development</a>
+                    <a class="dropdown-item" href="#">Mobile App Development</a>
+                </div>
+                
+                <!-- Column 4 -->
+                <div class="col-md-3">
+                    <h5>Advanced Technology</h5>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Robotic Process Automation (RPA)</a>
+                    <a class="dropdown-item" href="#">Internet of Things (IOT)</a>
+                    <a class="dropdown-item" href="#">Blockchain</a>
+                    <a class="dropdown-item" href="#">AR/VR</a>
+                </div>
+            </div>
+            
+            <!-- Second Row -->
+            <div class="row mt-4">
+                <!-- Column 5 -->
+                <div class="col-md-3">
+                    <h5>Strategy & Consulting</h5>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Business Optimization Consulting</a>
+                    <a class="dropdown-item" href="#">Product Strategy</a>
+                    <a class="dropdown-item" href="#">Technology Strategy</a>
+                    <a class="dropdown-item" href="#">Learning & Development</a>
+                </div>
+                
+                <!-- Column 6 -->
+                <div class="col-md-3">
+                    <h5>Digital Implementation & Delivery</h5>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Program Management</a>
+                    <a class="dropdown-item" href="#">Product Engineering</a>
+                    <a class="dropdown-item" href="#">DevOps & SecOps</a>
+                    <a class="dropdown-item" href="#">Managed Services</a>
+                </div>
+                
+                <!-- Column 7 -->
+                <div class="col-md-3">
+                    <h5>Data & Analytics</h5>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Data Engineering</a>
+                    <a class="dropdown-item" href="#">Data Management & Governance</a>
+                    <a class="dropdown-item" href="#">Analytics & Platform Implementation</a>
+                    <a class="dropdown-item" href="#">Data Science</a>
+                </div>
+                
+                <!-- Column 8 -->
+                <div class="col-md-3">
+                    <h5>Cloud</h5>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Business Process Automation</a>
+                    <a class="dropdown-item" href="#">CloudOps</a>
+                    <a class="dropdown-item" href="#">AWS, Azure & GCP</a>
+                    <a class="dropdown-item" href="#">Cloud Migration</a>
+                </div>
+            </div>
+            
+            <!-- Third Row -->
+            <div class="row mt-4">
+                <!-- Column 9 -->
+                <div class="col-md-3">
+                    <h5>Modernization</h5>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Platform Refactoring</a>
+                    <a class="dropdown-item" href="#">Technology Assessment</a>
+                    <a class="dropdown-item" href="#">User Experience</a>
+                    <a class="dropdown-item" href="#">Enterprise Application Architecture</a>
+                </div>
+                
+                <!-- Column 10 -->
+                <div class="col-md-3">
+                    <h5>Quality Assurance</h5>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Functional Testing</a>
+                    <a class="dropdown-item" href="#">Integration Testing</a>
+                    <a class="dropdown-item" href="#">Self-Healing Test Automation</a>
+                    <a class="dropdown-item" href="#">Automation Testing</a>
+                </div>
+                
+                <!-- Column 11 -->
+                <div class="col-md-3">
+                    <h5>Digital Marketing</h5>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Digital Strategy</a>
+                    <a class="dropdown-item" href="#">Social Media Management</a>
+                    <a class="dropdown-item" href="#">Branding & Creative Services</a>
+                    <a class="dropdown-item" href="#">Content Production</a>
+                </div>
+                
+                <!-- Column 12 -->
+                <div class="col-md-3">
+                    <h5>Privacy & Security</h5>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Governance, Risk & Compliance</a>
+                    <a class="dropdown-item" href="#">Data Privacy</a>
+                    <a class="dropdown-item" href="#">Security Services</a>
+                    <a class="dropdown-item" href="#">Penetration Testing</a>
+                </div>
+            </div>
+            
+            <!-- Bottom Section -->
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <div class="d-flex justify-content-center flex-wrap">
+                        <span class="badge badge-light m-2">Intelligence & data</span>
+                        <span class="badge badge-light m-2">development & QA</span>
+                        <span class="badge badge-light m-2">business consulting</span>
+                        <span class="badge badge-light m-2">platform implementation</span>
+                        <span class="badge badge-light m-2">product innovation</span>
+                        <span class="badge badge-light m-2">security</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">Platforms</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#home">Industries</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">Insights</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Careers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#search">
+                    <i class="fas fa-search"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <!-- Hero Section -->
+   
+  <!-- Indicators (dots) -->
+ 
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <!-- Indicators (dots) -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/WhatsApp Image 2025-05-21 at 18.36.57_620954b3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption custom-caption-left">
+     <h1 class="custom-heading">AI-Powered Global Digital<br>Engineering Partner</h1>
+        <p class="highlighted-text">Helping businesses unlock their true potential</p>
+
+
+        <div class="d-flex flex-wrap align-items-center mb-4 tag-line">
+          <span>Product Development</span>
+          <span class="dot"></span>
+          <span>Digital Transformation</span>
+          <span class="dot"></span>
+          <span>Agile Teams</span>
+        </div>
+
+        <a href="#contact" class="btn btn-outline-light">Let’s connect</a>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/WhatsApp Image 2025-05-21 at 18.36.58_0768365a.jpg" class="d-block w-100" alt="...">
+      <div class="case-study">
+    <div class="case-study-header">
+      <p class="case-study-tag">Case Study | <span class="underline-green">Healthcare</span></p>
+    </div>
+    <div class="case-study-content">
+      <div class="amwell-logo">
+        <img src="amwell-logo.png" alt="Amwell Logo">
+        <span>Amwell</span>
+      </div>
+      <p class="case-study-description">Brief description of the company's services...</p>
+      <button class="read-case-study-btn">Read case study</button>
+    </div>
+    <div class="our-expertise">
+      <h3>Our expertise</h3>
+      <div class="expertise-icons">
+        <div class="icon">
+          <img src="icon1.png" alt="Icon 1">
+        </div>
+        <div class="icon">
+          <img src="icon2.png" alt="Icon 2">
+        </div>
+        <div class="icon">
+          <img src="icon3.png" alt="Icon 3">
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+    <div class="carousel-item">
+      <img src="images/WhatsApp Image 2025-05-21 at 18.36.58_b8befcc3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption text-start">
+        <h1>People First</h1>
+        <p>Innovation driven by talent and culture.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/WhatsApp Image 2025-05-21 at 18.36.59_1e596c80.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption text-start">
+        <h1>Technology at Scale</h1>
+        <p>From startups to enterprises — we deliver.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Prev/Next Buttons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" aria-label="Previous">
+    &lt;
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" aria-label="Next">
+    &gt;
+  </button>
+</div>
+
+<!-- Hero section removed because content moved inside carousel slide -->
+
+
+ 
+</section>
+     
+    <header id="home" class="hero bg-primary text-white text-center">
+        <div class="container">
+            
+            <!-- Main heading of the hero section -->
+            <h1 class="display-4">Discover the Beauty of Pearls</h1>
+            <!-- Subheading or description -->
+            <p class="lead">Elegance and sophistication in every piece.</p>
+            <!-- Button linking to the services section -->
+            <a href="#services" class="btn btn-light btn-lg">Explore Our Collection</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <!-- Section heading -->
+            <h2 class="text-center">About Us</h2>
+            <!-- Description of the company -->
+            <p class="text-center">We are dedicated to providing the finest pearls sourced from around the world. Our mission is to bring elegance and beauty to your jewelry collection.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <!-- Section heading -->
+            <h2 class="text-center">Our Services</h2>
+            <div class="row">
+                <!-- Individual service cards -->
+                <div class="col-md-4">
+                    <h3>Custom Jewelry Design</h3>
+                    <p>Work with our designers to create unique pieces tailored to your style.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Jewelry Repair</h3>
+                    <p>We offer professional repair services to restore your cherished pieces.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Consultation</h3>
+                    <p>Get expert advice on selecting the perfect pearls for your needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <!-- Section heading -->
+            <h2 class="text-center">Contact Us</h2>
+            <!-- Contact form -->
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <!-- Input field for name -->
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <!-- Input field for email -->
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <!-- Textarea for message -->
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <!-- Submit button for the form -->
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+        <!-- Copyright notice -->
+        <p>&copy; 2025 Pearls. All rights reserved.</p>
+    </footer>
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Popper.js for tooltips and popovers -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JS for interactive components -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
